@@ -29,7 +29,6 @@ struct LoginScreen: View {
                             .padding()
                     )
                 Button(action: {
-                    // Action code for login button
                 }) {
                     Text("Login")
                         .foregroundColor(.white)
@@ -54,7 +53,6 @@ struct LoginScreen: View {
                 
                 VStack(spacing: 20) {
                     Button(action: {
-                        // Action code for login with Apple
                     }) {
                         Text("Log in via Apple ID")
                             .foregroundColor(.black)
@@ -71,7 +69,6 @@ struct LoginScreen: View {
                     }
                     
                     Button(action: {
-                        // Action code for login with Google
                     }) {
                         Image("google")
                             .resizable()
@@ -79,7 +76,6 @@ struct LoginScreen: View {
                     }
                     
                     Button(action: {
-                        // Action code for login with Facebook
                     }) {
                         Image("facebook")
                             .resizable()
