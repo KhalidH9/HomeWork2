@@ -13,7 +13,6 @@ struct SuccessfulLogin: View {
                         .foregroundColor(.gray)
                     
                     Button(action: {
-                        // Action to go to home screen
                     }) {
                         Text("Go to Home")
                             .font(.headline)
