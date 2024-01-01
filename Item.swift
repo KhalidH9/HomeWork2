@@ -1,10 +1,3 @@
-//
-//  Item.swift
-//  HW2
-//
-//  Created by خالد on 08/04/1445 AH.
-//
-
 import Foundation
 import SwiftData
 
