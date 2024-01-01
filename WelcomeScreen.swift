@@ -19,10 +19,8 @@ struct WelcomeScreen: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
             Button(action: {
-                // Code to perform login action
             }) {
                 Button(action: {
-                    // Code to perform login action
                 }) {
                     Text("Login")
                         .font(.headline)
@@ -48,6 +46,7 @@ struct WelcomeScreen: View {
             }
         }
     }
+    
     struct WelcomeScreen_Previews: PreviewProvider {
         static var previews: some View {
             WelcomeScreen()
